@@ -7,21 +7,6 @@ This project analyzes satellite temperature and humidity data using **Linux comm
 - **Humidity data for Rwanda**, sorted in **descending order**.
 
 The automation is handled using a **Bash script**.
-
----
-
-## 📂 Project Structure
-```
-/lab-1_sateliteDataAnalysis
-├── analyzed_data/        # Processed results
-│   ├── highest_temp.csv  # Top 10 highest temperatures
-│   ├── humidity_data_Rwanda.csv  # Rwanda's humidity data (sorted)
-├── raw_data/
-│   ├── satelite_temperature_data.csv  # Original dataset
-├── extract_insights.sh  # Automation script
-├── README.md  # Project documentation
-```
-
 ---
 
 ## 🛠 How to Run
