@@ -1,26 +1,58 @@
-# Guidelines
+```md
+# 🌍 Satellite Data Analysis - Lab 1
 
-## Before You Start
+## 📌 Overview
+This project analyzes satellite temperature and humidity data using **Linux commands** and **shell scripting**. The analysis extracts:
+- The **top 10 highest temperatures** recorded.
+- **Humidity data for Rwanda**, sorted in **descending order**.
 
-Follow these steps to prepare for your work:
-
-1. **Fork the Repository**  
-   Click on the **Fork** button at the top of the repository page. This creates a copy of the repository for your group.
-
-2. **Add Collaborators**  
-   Once the repository is forked:
-   - Go to **Settings** > **Collaborators and teams** > **Add people**.
-   - Invite all group members as collaborators.
+The automation is handled using a **Bash script**.
 
 ---
 
-## Working on the Project
+## 📂 Project Structure
+```
+/lab-1_sateliteDataAnalysis
+├── analyzed_data/        # Processed results
+│   ├── highest_temp.csv  # Top 10 highest temperatures
+│   ├── humidity_data_Rwanda.csv  # Rwanda's humidity data (sorted)
+├── raw_data/
+│   ├── satelite_temperature_data.csv  # Original dataset
+├── extract_insights.sh  # Automation script
+├── README.md  # Project documentation
+```
 
-After forking and setting up collaborators, follow these steps:
+---
 
-1. **Clone the Repository**  
-   Clone your forked repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/project-name.git
-   ```
+## 🛠 How to Run
 
+### **1️⃣ Run the Automated Extraction Script**
+Execute the script to extract both insights:
+```sh
+chmod +x extract_insights.sh
+./extract_insights.sh
+```
+---
+
+## 📜 Script Used: `extract_insights.sh`
+
+---
+
+## 📊 Expected Output Files
+After running the script, these files will be created inside the `analyzed_data/` folder:
+
+### **`highest_temp.csv` (Top 10 Temperatures)**
+### **`humidity_data_Rwanda.csv` (Sorted by Humidity, Highest to Lowest)**
+
+---
+
+## 👨‍💻 Team Contributions
+- **Person 1:** Cleaned and structured the repository.
+- **Person 2:** Extracted the **top 10 highest temperatures**.
+- **Person 3:** Extracted **humidity data for Rwanda**.
+- **Person 4:** Automated the **data extraction process** with a script.
+- **Person 5:** Reviewed and **documented** the project.
+  
+---
+
+**Thank you!**
