@@ -1,4 +1,4 @@
-```md
+
 # 🌍 Satellite Data Analysis - Lab 1
 
 ## 📌 Overview
